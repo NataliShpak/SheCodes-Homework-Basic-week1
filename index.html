@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      .main {
+      }
+      h1 {
+        text-align: center;
+        font-size: 34px;
+        color: #1a64d6;
+        margin-bottom: 0;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+      h2 {
+        margin-top: 0;
+        font-size: 34px;
+        line-height: 48px;
+        font-weight: 400;
+        text-align: center;
+      }
+      h3 {
+        font-weight: bold;
+        padding: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      p {
+        font-size: 18px;
+        opacity: 0.7;
+        text-align: center;
+        font-family: monospace;
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      ul {
+        padding: 0;
+        display: block;
+        padding-inline-start: 0;
+      }
+      li {
+        list-style: none;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      li:hover {
+        background-color: rgb(156, 240, 243);
+        cursor: pointer;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #1a64d6;
+        background: #1a64d6;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+        cursor: pointer;
+
+      }
+      button:hover {
+        color: blue;
+        background-color: yellow;
+        cursor: pointer;
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>
+        🌤
+        <br />
+        Currently 21° in Tokyo
+      </h1>
+      <h2>
+        13° /
+        <strong> 23° </strong>
+      </h2>
+      <ul>
+        <li>
+          <h3>🌧Tomorrow</h3>
+          <br />
+          <p>10° / 22°</p>
+        </li>
+        <li>
+          <h3>🌥 Saturday</h3>
+          <br />
+          <p>15° / 17°</p>
+        </li>
+        <li>
+          <h3>☀️ Sunday</h3>
+          <br />
+          <p>25° / 28°</p>
+        </li>
+      </ul>
+      <button>Change city</button>
+      <p>Coded by Nataliia Shpak</p>
+    </div>
+    <script>
+      /* let course = "She Codes";
+      alert(course);
+      let language = prompt("What language do you speak?");
+      alert("You speak " + language); */
+
+      let hometown = prompt("What is your hometown?");
+      alert(hometown);
+
+      let firstName = prompt("What is your first name");
+      let lastName = prompt("What is your last name");
+      let fullName = firstName + " " + lastName;
+      alert(fullName);
+
+      /* console.log(name);
+      console.log("Let's code!"); */
+    </script>
+  </body>
+</html>
